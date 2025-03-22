@@ -1,0 +1,19 @@
+ROC Curve Details:
+Class 0 ROC curve (AUC = 0.50)
+Class 1 ROC curve (AUC = 0.58)
+Class 2 ROC curve (AUC = 0.31)
+Class 3 ROC curve (AUC = 0.50)
+Class 4 ROC curve (AUC = 0.36)
+Class 5 ROC curve (AUC = 0.51)
+Class 6 ROC curve (AUC = 0.50)
+Class 7 ROC curve (AUC = 0.32)
+
+Precision-Recall Curve Details:
+Class 0 PR curve (AP = 0.03)
+Class 1 PR curve (AP = 0.04)
+Class 2 PR curve (AP = 0.00)
+Class 3 PR curve (AP = 0.17)
+Class 4 PR curve (AP = 0.05)
+Class 5 PR curve (AP = 0.00)
+Class 6 PR curve (AP = 0.23)
+Class 7 PR curve (AP = 0.35)

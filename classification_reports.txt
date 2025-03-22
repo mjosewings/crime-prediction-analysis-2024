@@ -1,0 +1,76 @@
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.95      0.99      0.97       798
+         2.0       0.98      0.94      0.96       876
+         3.0       0.98      0.98      0.98       331
+         4.0       0.99      0.97      0.98       503
+         5.0       0.95      0.96      0.96       900
+         6.0       0.92      0.94      0.93       705
+         7.0       0.96      0.96      0.96       667
+         8.0       0.96      0.95      0.95       520
+
+    accuracy                           0.96      5300
+   macro avg       0.96      0.96      0.96      5300
+weighted avg       0.96      0.96      0.96      5300
+
+
+Gradient Boosting Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.99      0.99      0.99       798
+         2.0       0.99      0.99      0.99       876
+         3.0       1.00      1.00      1.00       331
+         4.0       0.99      1.00      1.00       503
+         5.0       0.98      0.99      0.99       900
+         6.0       0.99      0.98      0.98       705
+         7.0       0.99      0.98      0.99       667
+         8.0       0.99      1.00      0.99       520
+
+    accuracy                           0.99      5300
+   macro avg       0.99      0.99      0.99      5300
+weighted avg       0.99      0.99      0.99      5300
+
+
+Logistic Regression Classification Report:
+              precision    recall  f1-score   support
+
+         1.0       0.93      0.97      0.95       798
+         2.0       0.95      0.93      0.94       876
+         3.0       0.98      0.96      0.97       331
+         4.0       0.97      0.99      0.98       503
+         5.0       0.95      0.95      0.95       900
+         6.0       0.84      0.90      0.87       705
+         7.0       0.97      0.95      0.96       667
+         8.0       0.96      0.85      0.90       520
+
+    accuracy                           0.94      5300
+   macro avg       0.94      0.94      0.94      5300
+weighted avg       0.94      0.94      0.94      5300
+
+
+Random Forest Best Parameters:
+{'max_depth': 30, 'n_estimators': 200}
+
+Gradient Boosting Best Parameters:
+{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}
+
+Random Forest Feature Importances:
+[4.14947948e-01 4.07437541e-01 2.81382135e-02 4.17288405e-02
+ 3.44907364e-02 2.16998388e-03 2.34800441e-03 2.26429809e-03
+ 6.83833039e-05 1.85135045e-03 1.54366379e-03 3.75639176e-04
+ 4.00459651e-03 2.20602759e-03 4.99557734e-04 3.31189012e-03
+ 7.22430056e-03 1.94501536e-03 7.61542036e-04 2.60764375e-03
+ 4.63694597e-03 4.55979197e-03 4.60776968e-03 4.41249923e-03
+ 4.43611646e-03 4.37219169e-03 4.22312825e-03 2.06085425e-03
+ 2.42191785e-03 2.13428308e-03 2.20932554e-03]
+
+Random Forest Cross-Validation Scores:
+[0.95943396 0.95660377 0.95830189 0.95679245 0.95886016]
+Random Forest Average Cross-Validation Score:
+0.9579984475532941
+
+Gradient Boosting Cross-Validation Scores:
+[0.99       0.98867925 0.98603774 0.98509434 0.9860351 ]
+Gradient Boosting Average Cross-Validation Score:
+0.9871692843434324
